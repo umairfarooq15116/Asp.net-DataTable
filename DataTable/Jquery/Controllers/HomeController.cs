@@ -13,7 +13,6 @@ namespace Jquery.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            int a = 0; // declare for nothing
             var data = DB.Students.ToList();
             return View(data);
         }
